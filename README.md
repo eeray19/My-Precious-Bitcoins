@@ -1,13 +1,12 @@
 # My-Precious-Bitcoins
 
-To DO:
+# To DO:
 
- Take Input from the User +
-
+ Take Input from the User
  Construct Tree
  Create Test Cases
  Implement Different Approaches
- Output the Result +
+ Output the Result
  Analyze time Complexity of the Algorithms
  Analyze Correctness of the Algorithms
  Discuss Further Improvements

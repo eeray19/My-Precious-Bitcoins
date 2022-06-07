@@ -2,14 +2,13 @@
 
 # To DO:
 
-- [x] Take Input from the User
-- [ ] Construct Tree
-- [ ] Create Test Cases
-- [ ] Implement Different Approaches
-- [x] Output the Result
-- [ ] Analyze time Complexity of the Algorithms
-- [ ] Analyze Correctness of the Algorithms
-- [ ] Discuss Further Improvements
+- [x] The algorithm you designed to solve the problem, the choices of the data structures you used and your reasoning.
+- [ ] In addition to your actual code, write a pseudo code for your algorithm
+- [ ] Compare it with another algorithmic approaches
+- [ ] The time complexity of your algorithm (and the space complexity if applicable)
+- [ ] Prove that your algorithms gives correct results
+- [ ] Further improvements that can be done as future works.
+
 
 TO DO List:
   Take an integer input "n" for representing the sum of x, y and z.

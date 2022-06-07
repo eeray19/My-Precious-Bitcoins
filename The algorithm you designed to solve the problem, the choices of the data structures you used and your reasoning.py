@@ -47,3 +47,5 @@ for k in maxToPrint:
 
 stop = timeit.default_timer()
 print("Time: ",stop-start)
+
+#The reasoning why we selec

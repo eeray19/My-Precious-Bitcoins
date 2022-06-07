@@ -47,6 +47,3 @@ for k in maxToPrint:
 
 stop = timeit.default_timer()
 print("Time: ",stop-start)
-
-#The reasoning why we selected this algorithm is to get more efficient time and the algorithm is useful to range the x’s and for y by splitting the range of n in two and then concatenating them with the reversed way.
-#Then we used data structures that called Storing data and Ordering and Sorting with that we gain more efficient time for Big-O.

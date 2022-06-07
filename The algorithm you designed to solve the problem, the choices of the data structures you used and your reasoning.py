@@ -48,4 +48,4 @@ for k in maxToPrint:
 stop = timeit.default_timer()
 print("Time: ",stop-start)
 
-#The reasoning why we selec
+#The reasoning why we selected this algorithm is to get more efficient time and the algorithm is useful to range the x’s and for y by splitting the range of n in two and then concatenating them with the reversed way.

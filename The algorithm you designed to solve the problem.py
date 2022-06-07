@@ -14,7 +14,7 @@ zTested = [False] * (n+1)
 toPrint = []
 maxtoPrint = []
 maxCount = -1
-for i in range(n):
+for i in range(n+1):
   count = 0
   toPrint = []
   xTested = [False] * (n+1)

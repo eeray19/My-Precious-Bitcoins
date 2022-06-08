@@ -50,7 +50,6 @@ Because the number of solutions is printed before the actual solution list, the 
 There are always less than n solutions (~2n/3). That gives an O(n) complexity. 
 Since we already have an O(n) space complexity, we can freely store the tested values in arrays of size n.
 
-
 ## Correct Results
 
 Our code considers every possible unique ordering of the (x,y,z) values and compares the number of tested candidates. After the comparison, it takes the ordering which results in the largest number of tested candidates. Since each possible ordering is considered, the code always outputs the correct result with the number of candidates maximized and (x,y,z) values equal to the input n.
@@ -60,5 +59,8 @@ Our code considers every possible unique ordering of the (x,y,z) values and comp
 ![image](https://user-images.githubusercontent.com/59393430/172411633-8619c204-836d-4d06-bf67-f7223b891397.png)
 ![image](https://user-images.githubusercontent.com/59393430/172412123-5ed35799-378a-4ed7-892c-7c65b3501718.png)
 
+## Compare with Other Algorithmic Approaches 
 
-
+- Before coming up with the present algorithmic approach, we tried a solution which testes x y and z results starting from x = 0, y = 1 and incrementing x and y by 1 until either y surpassed n or z became less than 0. 
+- However, after running the old version trying small values for n, we observed that the algorithm printed less candidates than we could write on paper. 
+- We can observe that in our present solution, the values of x y and z starts at 0, n/3 and 2n/3 and then x and y increases by 1 and the value of z drops by 2 after each print. We could hard code this without going over the non-correct solutions and reduce the runtime to O(n). However, the correctness of the mentioned solution would be hard to prove without using our O(n^3) algorithm.

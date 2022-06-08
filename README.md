@@ -18,9 +18,9 @@ TO DO List:
  
 # The choices of the data structures and our reasoning:
 
-The reasoning why we selected this algorithm is to get more efficient time and the algorithm is useful to range the x’s and for y by splitting the range of n in two   
-and then concatenating them with the reversed way. Then we used data structures that called Storing data and Ordering and Sorting with that we gain more efficient time 
-forBig-O our reasons for this data structures are used for efficient data persistence, such as specifying the collection of attributes and corresponding structures 
+The reasoning why we selected this algorithm is to get more efficient time and the algorithm is useful to range the x’s and for y by splitting the range of n in two 
+and then concatenating them with the reversed way. Then we used data structures that called Storing data and Ordering with that we gain more efficient time 
+for Big-O our reasons for this data structures are used for efficient data persistence, such as specifying the collection of attributes and corresponding structures 
 used to stores to keep track of the numbers that has been used for x, y, and z. Finally, we used ordering it is provided to our algorithm an efficient method of 
 sorting, such as integers used as values.
 

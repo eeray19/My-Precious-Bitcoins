@@ -19,6 +19,23 @@ TO DO List:
 
 # Pseudo Code of the Algorithm:
 
+maxCount = -1
+for i in [0,n-1]
+    count = 0
+    for x in [0,n]
+        for y in [i,n] U [0,i-1]
+            z = n-x-y
+            if z < 0 continue
+            if (none of x,y,z tested before)
+                save(x,y,z) in toPrint
+                makeTested(x,y,z)
+                count++
+    if count > maxCount
+        maxCount = count
+        maxToPrint = toPrint
+print(maxCount)
+printAllOf(maxToPrint)
+
 ## The Time Complexity of the Algorithm: O(n^3)
 In the first for loop, we have n iterations for all the possible starting combinations for (x,y) starting from (0,0) and incrementing the starting value of y in each iteration. ---> O(n)
 We need to go over all possible x values by using a for loop, inside the second for loop is the third for loop to go over all possible y values. ---> O(n^2).
@@ -30,7 +47,7 @@ There are always less than n solutions (~2n/3). That gives an O(n) complexity.
 Since we already have an O(n) space complexity, we can freely store the tested values in arrays of size n.
 
 
-## Coreect Results
+## Correct Results
 ![image](https://user-images.githubusercontent.com/59393430/172411043-bdfae646-b965-42fc-ba64-0a364e523675.png)
 ![image](https://user-images.githubusercontent.com/59393430/172411456-139c587a-f3bc-4957-b717-ea42808db9d7.png)
 ![image](https://user-images.githubusercontent.com/59393430/172411633-8619c204-836d-4d06-bf67-f7223b891397.png)

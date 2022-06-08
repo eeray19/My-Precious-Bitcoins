@@ -52,6 +52,9 @@ Since we already have an O(n) space complexity, we can freely store the tested v
 
 
 ## Correct Results
+
+Our code considers every possible unique ordering of the (x,y,z) values and compares the number of tested candidates. After the comparison, it takes the ordering which results in the largest number of tested candidates. Since each possible ordering is considered, the code always outputs the correct result with the number of candidates maximized and (x,y,z) values equal to the input n.
+
 ![image](https://user-images.githubusercontent.com/59393430/172411043-bdfae646-b965-42fc-ba64-0a364e523675.png)
 ![image](https://user-images.githubusercontent.com/59393430/172411456-139c587a-f3bc-4957-b717-ea42808db9d7.png)
 ![image](https://user-images.githubusercontent.com/59393430/172411633-8619c204-836d-4d06-bf67-f7223b891397.png)

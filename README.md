@@ -3,7 +3,7 @@
 # To DO:
 
 - [x] The algorithm you designed to solve the problem, the choices of the data structures you used and your reasoning.
-- [ ] In addition to your actual code, write a pseudo code for your algorithm
+- [x] In addition to your actual code, write a pseudo code for your algorithm
 - [ ] Compare it with another algorithmic approaches
 - [x] The time complexity of your algorithm (and the space complexity if applicable)
 - [x] Prove that your algorithms gives correct results

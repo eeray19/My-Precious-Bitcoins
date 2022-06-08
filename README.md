@@ -19,6 +19,7 @@ TO DO List:
 
 # Pseudo Code of the Algorithm:
 
+```
 maxCount = -1
 for i in [0,n-1]
     count = 0
@@ -35,6 +36,9 @@ for i in [0,n-1]
         maxToPrint = toPrint
 print(maxCount)
 printAllOf(maxToPrint)
+
+```
+
 
 ## The Time Complexity of the Algorithm: O(n^3)
 In the first for loop, we have n iterations for all the possible starting combinations for (x,y) starting from (0,0) and incrementing the starting value of y in each iteration. ---> O(n)
